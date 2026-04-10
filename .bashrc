@@ -5,16 +5,19 @@
 # ----------------------------------------------------------------------------
 # Git Aliases - Shortcuts for common git operations
 # ----------------------------------------------------------------------------
-alias pull='git pull'                          # Pull latest changes from remote
-alias push='git push'                          # Push commits to remote
-alias abort='git merge --abort'                # Abort a merge in progress
-alias main='git checkout main && git pull'     # Switch to main branch and pull latest
+alias pull='git fetch && git rebase'          # Rebase current branch onto latest main
+alias push='git push'                         # Push commits to remote
+alias abort='git merge --abort'               # Abort a merge in progress
+alias main='git checkout main && pull'        # Switch to main branch and pull latest
+alias reset1='git reset HEAD~1'               # Reset the last commit
+alias force='git push --force'                # Force push changes to remote
+alias cp='git cherry-pick'                    # Cherry-pick a commit
 
 # ----------------------------------------------------------------------------
 # Shell Configuration Aliases
 # ----------------------------------------------------------------------------
-alias customs='code ~/.bashrc'                 # Open this file in VS Code for editing
-alias refresh='source ~/.bashrc'               # Reload .bashrc without restarting terminal
+alias customs='code ~/.bashrc'                # Open this file in VS Code for editing
+alias refresh='source ~/.bashrc'              # Reload .bashrc without restarting terminal
 
 # ----------------------------------------------------------------------------
 # Project Shortcuts - TerraDotta Development
@@ -25,13 +28,17 @@ alias pd='cd /c/TerraDotta/tds-next-gen-admin-shell/sa/frontend/program-discover
 # TDS Angular - Management Tool
 alias mt='cd /c/TerraDotta/tds-core/frontend/tds-angular && npm run mt'
 alias mt-clean='cd /c/TerraDotta/tds-core/frontend/tds-angular && npm run mt-clean'
+alias mt-build='cd /c/TerraDotta/tds-core/frontend/tds-angular && npm run mt-build'
+
+# TDS Angular - Shell App
+alias shell='cd /c/TerraDotta/tds-next-gen-admin-shell/platform/frontend/shell-app && npm run local'
 
 # ----------------------------------------------------------------------------
 # Node Version Manager (NVM) - Quick version switching
 # ----------------------------------------------------------------------------
-alias node14='nvm use 14'                      # Switch to Node.js v14.x.x
-alias node18='nvm use 18'                      # Switch to Node.js v18.x.x
-alias node22='nvm use 22'                      # Switch to Node.js v22.x.x
+alias node14='nvm use 14'                     # Switch to Node.js v14.x.x
+alias node18='nvm use 18'                     # Switch to Node.js v18.x.x
+alias node24='nvm use 24'                     # Switch to Node.js v24.x.x
 
 # ----------------------------------------------------------------------------
 # Custom Prompt Configuration
