@@ -1,6 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:2b2b2b&height=180&section=header&text=Abraham2748&fontColor=ffffff&fontSize=42&animation=fadeIn" width="100%" alt="abraham2748 banner" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff00c8,50:00fff9,100:7000ff&height=180&section=header&text=Abraham2748&fontColor=ffffff&fontSize=42&animation=twinkling&fontAlignY=35" width="100%" alt="abraham2748 banner" />
 
-Senior Front-End Developer · Angular/TypeScript · 8+ years
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=00FFF9,FF00C8,7000FF&center=true&vCenter=true&width=500&lines=Senior+Front-End+Developer;Angular+%2F+TypeScript+%2F+8%2B+years" alt="Senior Front-End Developer · Angular/TypeScript · 8+ years" />
 
 ---
 
