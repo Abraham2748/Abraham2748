@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:2b2b2b&height=180&section=header&text=abraham2748&fontColor=ffffff&fontSize=42&animation=fadeIn" width="100%" alt="abraham2748 banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:2b2b2b&height=180&section=header&text=Abraham2748&fontColor=ffffff&fontSize=42&animation=fadeIn" width="100%" alt="abraham2748 banner" />
 
 Senior Front-End Developer · Angular/TypeScript · 8+ years
 
@@ -42,5 +42,5 @@ I build Angular apps for a living and tinker with my own dev environment for fun
 
 ## 🔗 Let’s Connect
 
-- 📧 **Email:** [abraham_jack10@hotmail.com](mailto:abraham_jack10@hotmail.com)  
+- 📧 **Email:** [abraham_jack10@hotmail.com](mailto:abraham_jack10@hotmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/abraham2748](https://www.linkedin.com/in/abraham2748/)
