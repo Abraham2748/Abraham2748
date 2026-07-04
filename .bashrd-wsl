@@ -148,9 +148,3 @@ PS1='\[\033[1;34m\]📁 \w \[\033[0;36m\]🌿$(__git_ps1 " (%s)")\[\033[0m\]\n�
 # ----------------------------------------------------------------------------
 alias customs='nano ~/.bashrc'                 # Open this file in nano for editing
 alias refresh='source ~/.bashrc'               # Reload .bashrc without restarting terminal
-
-# Setup Claude with AWS MFA
-alias setup-claude='nvm use 18 && bash ~/scripts/orange-aws-mfa-auth.sh && export AWS_PROFILE=orange-mfa && claude'
-# Open Claude using existing MFA session
-alias open-claude='nvm use 18 && export AWS_PROFILE=orange-mfa && claude'
-export PATH="$HOME/.local/bin:$PATH"

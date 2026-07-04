@@ -5,13 +5,36 @@
 # ----------------------------------------------------------------------------
 # Git Aliases - Shortcuts for common git operations
 # ----------------------------------------------------------------------------
-alias pull='git fetch && git rebase'          # Rebase current branch onto latest main
+alias pull='git pull'                         # Pull latest from remote
+alias rebase='git rebase main'                # Rebase current branch onto main
 alias push='git push'                         # Push commits to remote
 alias abort='git merge --abort'               # Abort a merge in progress
 alias main='git checkout main && pull'        # Switch to main branch and pull latest
 alias reset1='git reset HEAD~1'               # Reset the last commit
 alias force='git push --force'                # Force push changes to remote
 alias cp='git cherry-pick'                    # Cherry-pick a commit
+
+# ----------------------------------------------------------------------------
+# Git Functions
+# ----------------------------------------------------------------------------
+# Sync feature branch with latest main: pull main, rebase, force push
+sync() {
+  local branch
+  branch=$(git branch --show-current)
+
+  if [ -z "$branch" ]; then
+    echo "sync: not on a named branch (detached HEAD?). Aborting."
+    return 1
+  fi
+
+  git checkout main && git pull || return 1
+  git checkout "$branch" || return 1
+  git rebase main || {
+    echo "sync: rebase has conflicts. Resolve them, then run 'git rebase --continue'."
+    return 1
+  }
+  git push --force
+}
 
 # ----------------------------------------------------------------------------
 # Shell Configuration Aliases
@@ -59,3 +82,4 @@ if command -v ng &> /dev/null; then
     source <(ng completion script)
   fi
 fi
+export PATH="/c/Program Files/MySQL/MySQL Server 8.0/bin:$PATH"
