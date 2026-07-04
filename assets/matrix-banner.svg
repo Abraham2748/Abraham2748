@@ -1,0 +1,27 @@
+<svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.05" />
+      <stop offset="60%" stop-color="#00ff41" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="200" fill="#0d0208" />
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="16" fill="url(#fade)">
+    <text x="10" y="20">1 0 1 1 0 0 1 0 1 1 0 1 0 0 1 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 1</text>
+    <text x="4" y="40">0 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 0 1 0 1 1 0 0 1 0 1 1 0 0 1</text>
+    <text x="14" y="60">1 1 0 1 0 0 1 1 0 1 0 1 0 0 1 1 0 1 0 0 1 1 0 1 0 1 0 0 1 1 0</text>
+    <text x="8" y="150">0 0 1 0 1 1 0 0 1 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 0 1 1 0 0 1</text>
+    <text x="16" y="170">1 0 1 1 0 1 0 0 1 1 0 1 0 1 0 0 1 1 0 1 0 1 0 0 1 1 0 1 0 1 0</text>
+    <text x="6" y="190">0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0</text>
+  </g>
+
+  <text x="600" y="112" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="56" font-weight="bold" fill="#00ff41">
+    Abraham2748
+  </text>
+  <text x="600" y="112" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="56" font-weight="bold" fill="none" stroke="#00ff41" stroke-opacity="0.4" stroke-width="6">
+    Abraham2748
+  </text>
+</svg>
