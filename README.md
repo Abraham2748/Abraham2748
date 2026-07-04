@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/matrix-background.gif" width="100%" alt="abraham2748 banner" />
+  <img src="assets/title-background.gif" width="100%" alt="abraham2748 banner" />
 </p>
 
 <p align="center">
