@@ -1,37 +1,46 @@
-# 👋 Hi, I'm Abraham!
+```console
+$ whoami
+abraham2748 — Senior Front-End Developer, Angular/TypeScript, 8+ years
 
-I'm a **Senior Front-End Developer** with over **8 years of experience**, specializing in **Angular** and **TypeScript**. I thrive on crafting scalable, maintainable web applications and boosting developer productivity through clean architecture and efficient CI/CD pipelines.
-
----
-
-## 💻 Tech Stack & Skills
-
-- **Core Stack:** Angular, TypeScript, HTML, Sass, RxJS  
-- **State Management:** NgRx, Angular Signals  
-- **DevOps:** Jenkins, GitLab CI/CD, Bitbucket Pipelines  
-- **Other Tools & Frameworks:** Ionic, Nx Monorepos, PrimeNG, Git  
-- **Languages:** TypeScript, JavaScript, SASS, C#, Java, T-SQL
+$ cat interests.txt
+clean architecture · CI/CD · terminals · dotfiles
+```
 
 ---
 
-## 🚀 Featured Projects
+## About
 
-- **🧭 Study Abroad Platform (Terradotta)**  
-  Refactored legacy code, established shared libraries, and actively participated in architectural decisions and CI/CD automation.
-
-- **💼 Sharetec’s V10**  
-  Led the migration from AngularJS to Angular 12, improving code maintainability and reducing technical debt.
-
-- **🌐 SERVIR Web Platform**  
-  Built and deployed a complete Angular 9 app with PrimeNG, enhancing user engagement by optimizing multi-step forms.
-
-> _(Feel free to check back soon, public project links and demos are coming!)_
+I build Angular apps for a living and tinker with my own dev environment for fun — shell configs, editor tooling, whatever shaves a few seconds off the loop. I care about code that's easy to read six months later more than code that's clever today. Currently deep in Angular 20, spec-driven development, and pairing with AI tooling like Claude Code to design and ship faster without losing rigor.
 
 ---
 
-## 🧠 About Me
+## Tech Stack
 
-I’m a problem-solver at heart who believes that good code is clean, tested, and easy to maintain. I'm always eager to adopt new technologies, teach best practices, and learn from others. Whether it’s optimizing performance, writing tests, or improving team workflows, I’m in.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logo=reactivex&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Spec--Driven Development](https://img.shields.io/badge/Spec--Driven%20Development-4B32C3?style=flat-square)
+
+---
+
+## Featured Projects
+
+- **[twb](https://github.com/Abraham2748/twb)** — The Walker Barbershop: digital management platform for small/medium barbershops (Angular + PHP).
+- **[abrahams-pack](https://github.com/Abraham2748/abrahams-pack)** — curated VS Code extension pack (16+ extensions) for Angular/Git/AI-assisted dev workflows.
+- **[musical-events](https://github.com/Abraham2748/musical-events)** — Angular 20 + .NET fullstack course project (MitoCode).
+
+---
+
+## Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abraham2748/Abraham2748/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/Abraham2748/Abraham2748/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ---
 
@@ -39,19 +48,3 @@ I’m a problem-solver at heart who believes that good code is clean, tested, an
 
 - 📧 **Email:** [abraham_jack10@hotmail.com](mailto:abraham_jack10@hotmail.com)  
 - 💼 **LinkedIn:** [linkedin.com/in/abraham2748](https://www.linkedin.com/in/abraham2748/)
-
----
-
-## 🎉 Fun Facts
-
-- 🐶 Dog dad to **two** beautiful Pomeranians: Baki and Kopa  
-- 🎮 Loves tactical RPGs like *Bravely Default* and action games like *Devil May Cry*
-- 🎧 Big Green Day fan (especially the *Kerplunk!* era)  
-- 📚 Lifelong learner, always leveling up with Angular University and other resources
-- 🧪 Currently diving into Angular 20’s new features and changes
-
----
-
-## 📊 GitHub Stats
-![Abraham's GitHub stats](https://github-readme-stats.vercel.app/api?username=Abraham2748&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Abraham2748&layout=compact&theme=radical)
