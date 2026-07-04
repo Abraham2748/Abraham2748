@@ -1,10 +1,6 @@
-```console
-$ whoami
-abraham2748 — Senior Front-End Developer, Angular/TypeScript, 8+ years
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:2b2b2b&height=180&section=header&text=abraham2748&fontColor=ffffff&fontSize=42&animation=fadeIn" width="100%" alt="abraham2748 banner" />
 
-$ cat interests.txt
-clean architecture · CI/CD · terminals · dotfiles
-```
+Senior Front-End Developer · Angular/TypeScript · 8+ years
 
 ---
 
